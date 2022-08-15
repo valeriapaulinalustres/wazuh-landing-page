@@ -93,13 +93,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0;
-    height: 550px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
     background-attachment: fixed;
+    margin-top: 80px;
    
 
 }
