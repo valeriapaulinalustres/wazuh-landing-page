@@ -1,0 +1,33 @@
+.brand {
+    content: url(/src/assets/logo.png);
+    width: 180px;
+   
+    
+}
+
+.navbar-container{
+ 
+    height: 40px;
+    padding: 30px 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.navbar-container__links{
+    text-decoration: none;
+    color: black;
+    margin: 14px;
+    align-self: flex-end;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-btn{
+    margin-left: 15px;
+}

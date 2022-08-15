@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #256BD1;
+    --light-blue: #3585F9;
+    --violet: #EBD0FC;
+    --yellow: #FEDD0B;
+  --black: #292929;
+  --lightest-shade: #EBF2FB;
+  --light-shade: #B7C6D7;
+  --dark-shade: #657C97;
+  }
+
+  .button{
+    background-color: var(--yellow);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+  }

@@ -1,0 +1,139 @@
+.footer-container{
+    background-color: black;
+ 
+  
+}
+
+.footer-container__bottom{
+    padding: 30px 8%;
+    border-top: 1px solid var(--dark-shade);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container__bottom__copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-container__bottom__copyright h6{
+    color: var(--light-shade);
+    padding-right: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+  
+}
+
+.padding{
+    padding-left: 30px;
+}
+
+.footer-container__bottom__copyright--border{
+    border-left: 1px solid var(--dark-shade);
+    border-right: 1px solid var(--dark-shade);
+}
+
+.icon-footer{
+    color: white;
+    width: 20px;
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer-container__top{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 60px 8%;
+}
+
+.footer-container__top__links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-links--text{
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--lightest-shade);
+}
+
+.subscribe{
+    color: var(--lightest-shade);
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscribe-btn-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+width: 100%;
+   
+}
+
+.subscribe-btn-input input{
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    
+}
+
+.button-footer{
+    border-radius: 10px;
+    background-color: var(--yellow);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.footer-brand{
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer-container__top__links-container__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.copyright-icon{
+    margin-right: 5px;
+}
+
+.button-footer h6{
+    font-weight: 1000;
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    margin: auto;
+}

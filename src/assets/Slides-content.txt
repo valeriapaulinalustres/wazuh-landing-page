@@ -1,0 +1,11 @@
+Slider text:
+- Slide 1
+	- Logo: Groupon
+	- Comment text: We found in Wazuh the most complete security platform. We were seeking an open source SIEM solution that allowed scalability and integration with other tools, which made Wazuh the perfect fit. We achieved our goal, and in addition, we improved the visibility of our environment with the Wazuh monitoring options.
+	- Comment author: Martin Petracca, IT Security Manager
+
+- Slide 2
+	- Logo: Woopp
+	- Comment text: In addition to the great advantage of being an open source platform, Wazuh is also easy to deploy, and its multiple capabilities have allowed us to achieve our goal with security at Woop. Wazuh is a unique tool and it’s perfect for startups like Woop that are looking for top security at a competitive cost.
+	- Comment author: Haithem Souala, Site Reliability Engineer
+	
