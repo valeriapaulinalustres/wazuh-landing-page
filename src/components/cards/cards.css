@@ -1,4 +1,4 @@
-.cards-container{
+.cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     margin-bottom: 100px;
 }
 
-.card-container{
+.card-container {
     background-color: var(--lightest-shade);
     width: 300px;
     height: 340px;
@@ -17,41 +17,38 @@
 
 }
 
-.card-container__list-container{
-
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: flex-start;
-height: 100%;
+.card-container__list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
 }
 
-.card-container__list-container h3{
+.card-container__list-container h3 {
     font-family: 'Manrope', sans-serif;
     font-size: 26px;
     font-weight: 600;
-   align-self: center;
+    align-self: center;
 }
 
-.card-container__list-container h4{
+.card-container__list-container h4 {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     font-weight: 500;
-   
 }
 
-.response{
+.response {
     margin-left: 30px;
 }
 
-.tick{
-color: var(--light-blue);
-width: 30px;
-height: 30px;
+.tick {
+    color: var(--light-blue);
+    width: 30px;
+    height: 30px;
 }
 
-.card-container__icon{
-    
+.card-container__icon {
     width: 80px;
     height: 80px;
     position: absolute;
@@ -61,18 +58,18 @@ height: 30px;
     height: 80px;
 }
 
-.security-endpoint{
+.security-endpoint {
     content: url(/src/assets/Endpoint\ Security@4x.png);
 }
 
-.threat{
+.threat {
     content: url(/src/assets/Threat\ Intelligence@4x.png);
 }
 
-.security{
+.security {
     content: url(/src/assets/Security\ Ops@4x.png);
 }
 
-.cloud{
+.cloud {
     content: url(/src/assets/Cloud\ Security@4x.png);
 }

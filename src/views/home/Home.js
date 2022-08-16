@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import './home.css';
 import Carousel from '../../components/carousel/Carousel';
 import Cards from '../../components/cards/Cards';
@@ -8,18 +8,18 @@ import { useIntersection } from "react-use";
 
 function Home() {
 
+  //Button animation
+
   const onEnter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { backgroundColor: "#fff4ac"});
+    gsap.to(currentTarget, { backgroundColor: "#fff4ac" });
   };
 
   const onLeave = ({ currentTarget }) => {
     gsap.to(currentTarget, { backgroundColor: "#FEDD0B" });
   };
 
-  //-----------animation on scroll fifth section--------------------
+  //---------Animation on scroll fifth section--------------------
   const fifthHomeRef = useRef();
-
-
 
   const intersectionHomeFifth = useIntersection(fifthHomeRef, {
     root: null,
@@ -32,17 +32,14 @@ function Home() {
       opacity: 1,
       y: -40,
       ease: "power4.out",
-      
+
       duration: 2,
       stagger: {
         amount: 1
       }
     });
-    
-
   };
 
-  
   const fadeOut = element => {
     gsap.to(element, 1, {
       opacity: 0,
@@ -54,7 +51,7 @@ function Home() {
   intersectionHomeFifth && intersectionHomeFifth.intersectionRatio < 0.5
     ? fadeOut(".fadeIn")
     : fadeIn(".fadeIn");
-
+  //------------------------------------------------
 
   return (
     <div>
@@ -77,7 +74,6 @@ function Home() {
         <h2>Endpoint & Cloud Workload Protection</h2>
         <h4>Wazuh unifies historically separate functions into a single agent and platform architecture.</h4>
         <h4>Protection is provided for public clouds, private clouds, and on-premise data centers.</h4>
-       
       </section>
 
       <Cards />
@@ -93,9 +89,9 @@ function Home() {
         <div className='home-fourth-section__div'>
           <img className='cloud-img  '></img>
           <div className='home-fourth-section__div__right'>
-            <h2>Explore the potential of<br/>Wazuh Cloud</h2>
+            <h2>Explore the potential of<br />Wazuh Cloud</h2>
             <h3>Wazuh has created an entirely new cloud-based architecture to reduce complexity and improve security while providing stronger endpoint protection.</h3>
-            <button className="button"onMouseEnter={onEnter} onMouseLeave={onLeave}>Start your free trial</button>
+            <button className="button" onMouseEnter={onEnter} onMouseLeave={onLeave}>Start your free trial</button>
           </div>
         </div>
       </section>
@@ -107,7 +103,6 @@ function Home() {
             <h2>15+ Million</h2>
             <h3>Protected endpoints</h3>
           </div>
-
         </div>
         <div className='home-fifth-section__subcontainer fadeIn'>
           <img className='enterprise-icon'></img>
@@ -115,7 +110,6 @@ function Home() {
             <h2>100+ Thousand</h2>
             <h3>Enterprise users</h3>
           </div>
-
         </div>
         <div className='home-fifth-section__subcontainer fadeIn'>
           <img className='downloads-icon'></img>
@@ -123,15 +117,13 @@ function Home() {
             <h2>10+ Million</h2>
             <h3>Dowloads per year</h3>
           </div>
-
         </div>
       </section>
+
       <section className='home-sixth-section'>
         <h2 className='home-sixth-section--title'>What our customers say about us</h2>
         <Carousel />
       </section>
-
-
     </div>
   )
 }

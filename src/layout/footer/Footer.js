@@ -44,12 +44,10 @@ function Footer() {
           </div>
         </div>
 
-
-
       </div>
       <div className='footer-container__bottom'>
         <div className='footer-container__bottom__copyright'>
-          <h6><BiCopyright className='copyright-icon'/>2002 Wazuh, Inc.</h6>
+          <h6><BiCopyright className='copyright-icon' />2002 Wazuh, Inc.</h6>
           <h6 className='footer-container__bottom__copyright--border padding'>Privacy</h6>
           <h6 className='padding'>Terms of service</h6>
         </div>

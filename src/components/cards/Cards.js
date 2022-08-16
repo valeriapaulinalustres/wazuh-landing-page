@@ -11,7 +11,7 @@ function Cards() {
         <div className='card-container__list-container'>
           <h3>Endpoint Security</h3>
           <h4><TiTick className='tick' />Configuration Assesment</h4>
-          <h4><TiTick className='tick' />Endpoint Detection<br /><pan className='response'>& Response</pan></h4>
+          <h4><TiTick className='tick' />Endpoint Detection<br /><span className='response'>& Response</span></h4>
           <h4><TiTick className='tick' />File Integrity Monitoring</h4>
         </div>
       </div>
